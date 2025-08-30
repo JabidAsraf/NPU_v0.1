@@ -1,0 +1,358 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/shammo/Documents/VLSI/NPU_V2
+vcounter
+Z1 !s110 1756539490
+!i10b 1
+!s100 3FDIgRA2]d6=Fe<80a6j40
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iom@Dm2e>k5^[1:=A?=@WU0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1724073208
+Z5 8/home/shammo/Documents/VLSI/NPU_V2/rtl/standard_macros.v
+Z6 F/home/shammo/Documents/VLSI/NPU_V2/rtl/standard_macros.v
+!i122 470
+L0 187 33
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1756539490.000000
+!s107 /home/shammo/Documents/VLSI/NPU_V2/rtl/standard_macros.v|
+Z9 !s90 -work|work|-stats=none|/home/shammo/Documents/VLSI/NPU_V2/rtl/standard_macros.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcounter_m
+R1
+!i10b 1
+!s100 oK6WK0g6_H87:YTII^DL]2
+R2
+Im`L2Rj;2_MU49N;h[=NTA0
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 1 41
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 /home/shammo/Documents/VLSI/NPU_V2/rtl/standard_macros.v|
+R9
+!i113 1
+R10
+R11
+vcustomized_fifo
+R1
+!i10b 1
+!s100 ng;YU3[dCmBJ`BeZ8Hab03
+R2
+IoUW8BU5aQ`3@>76?L>S840
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 368 87
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vdff
+R1
+!i10b 1
+!s100 `TQG7Kkcl``U1<UhfH^cU2
+R2
+IaI^K>^ADZ`059eKHTgU`F2
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 56 21
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vfifo
+R1
+!i10b 1
+!s100 EPRbe[zDEPCfNZNinOb2j1
+R2
+IPPMeTNGne4NJZ@PU`aahD0
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 221 84
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vmux_4x1
+R1
+!i10b 1
+!s100 ]8B22@o^aTlUh0[gI9gBg1
+R2
+IO`;@?lAgOGQHIzcYAXS]B1
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 90 23
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vnegedge_dectector
+R1
+!i10b 1
+!s100 ^4XMXz<f1[kAaK13X^6YF3
+R2
+Ii@<d:BLMLdnJU6^b2_O;_0
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 162 24
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vnpu_top
+R1
+!i10b 1
+!s100 g@[HAY5<o6LZJ8oj@?P9i0
+R2
+Ik?l_Z=aRIJ4dU`mhT=0Gb2
+R3
+R0
+w1735155570
+8/home/shammo/Documents/VLSI/NPU_V2/rtl/npu_top.v
+F/home/shammo/Documents/VLSI/NPU_V2/rtl/npu_top.v
+!i122 469
+L0 3 97
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/NPU_V2/rtl/../include/npu_params.v|/home/shammo/Documents/VLSI/NPU_V2/rtl/npu_top.v|
+!s90 -work|work|-stats=none|/home/shammo/Documents/VLSI/NPU_V2/rtl/npu_top.v|
+!i113 1
+R10
+R11
+vposedge_dectector
+R1
+!i10b 1
+!s100 8eiJ6IYzeUcB6dg_aVQOG0
+R2
+IzA5e32IXK6XEg2Xd@CI^;2
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 125 25
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vreg_bank
+R1
+!i10b 1
+!s100 9i755?mfAa8l<4;Hg0RUf3
+R2
+IS9>XDT7c]ZR3Af2F4U]e60
+R3
+R0
+w1734808836
+8/home/shammo/Documents/VLSI/NPU_V2/rtl/reg_bank.v
+F/home/shammo/Documents/VLSI/NPU_V2/rtl/reg_bank.v
+!i122 468
+L0 3 391
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/NPU_V2/rtl/../include/npu_params.v|/home/shammo/Documents/VLSI/NPU_V2/rtl/reg_bank.v|
+!s90 -work|work|-stats=none|/home/shammo/Documents/VLSI/NPU_V2/rtl/reg_bank.v|
+!i113 1
+R10
+R11
+vreg_interface
+R1
+!i10b 1
+!s100 KhHjWK82o]H;WSj>H84K32
+R2
+IjTT4z[HkH`Z9;9Y;<lIU33
+R3
+R0
+w1756536440
+8/home/shammo/Documents/VLSI/NPU_V2/rtl/reg_interface.v
+F/home/shammo/Documents/VLSI/NPU_V2/rtl/reg_interface.v
+!i122 466
+L0 5 178
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/NPU_V2/rtl/../include/npu_params.v|/home/shammo/Documents/VLSI/NPU_V2/rtl/reg_interface.v|
+!s90 -work|work|-stats=none|/home/shammo/Documents/VLSI/NPU_V2/rtl/reg_interface.v|
+!i113 1
+R10
+R11
+vserial_shift_register
+R1
+!i10b 1
+!s100 HXGC^`MfH5aeY>`JHbgB<3
+R2
+I[gaG<oYeaXPKXI;>HUNkS2
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 335 31
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vshift_register
+R1
+!i10b 1
+!s100 JRI6^O[Z:YAmRo`miTfZo3
+R2
+IfAKZ]d1MD5X;XiEU2V>H02
+R3
+R0
+R4
+R5
+R6
+!i122 470
+L0 306 28
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vspi_slave
+R1
+!i10b 1
+!s100 o[7F?`ENhMS5_Ad6aIjkO1
+R2
+Ie:B^7E4=NnjNMIIjRYzeY3
+R3
+R0
+w1756534178
+8/home/shammo/Documents/VLSI/NPU_V2/rtl/spi_slave.v
+F/home/shammo/Documents/VLSI/NPU_V2/rtl/spi_slave.v
+!i122 467
+L0 3 143
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/NPU_V2/rtl/../include/npu_params.v|/home/shammo/Documents/VLSI/NPU_V2/rtl/spi_slave.v|
+!s90 -work|work|-stats=none|/home/shammo/Documents/VLSI/NPU_V2/rtl/spi_slave.v|
+!i113 1
+R10
+R11
+vtb_top
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R1
+!i10b 1
+!s100 ;<5[XzC:6BJUnz`94@HU10
+R2
+IaYASH^=NY2UkC;W?_5k6N3
+R3
+S1
+R0
+w1756539441
+8/home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv
+F/home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv
+!i122 465
+L0 5 163
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/NPU_V2/tb/../include/npu_params.v|/home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv|
+!s90 -work|work|-sv|-stats=none|/home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv|
+!i113 1
+o-work work -sv
+R11

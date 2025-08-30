@@ -1,0 +1,65 @@
+/home/shammo/Documents/VLSI/NPU_V2/rtl/standard_macros.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/standard_macros.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_m
+-- Compiling module dff
+-- Compiling module mux_4x1
+-- Compiling module posedge_dectector
+-- Compiling module negedge_dectector
+-- Compiling module counter
+-- Compiling module fifo
+-- Compiling module shift_register
+-- Compiling module serial_shift_register
+-- Compiling module customized_fifo
+
+Top level modules:
+	counter_m
+	mux_4x1
+	posedge_dectector
+	negedge_dectector
+	fifo
+	shift_register
+	serial_shift_register
+	customized_fifo
+
+} {} {}} /home/shammo/Documents/VLSI/NPU_V2/rtl/reg_bank.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/reg_bank.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_bank
+
+Top level modules:
+	reg_bank
+
+} {} {}} /home/shammo/Documents/VLSI/NPU_V2/rtl/npu_top.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/npu_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module npu_top
+
+Top level modules:
+	npu_top
+
+} {} {}} /home/shammo/Documents/VLSI/NPU_V2/rtl/spi_slave.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/spi_slave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave
+
+Top level modules:
+	spi_slave
+
+} {} {}} /home/shammo/Documents/VLSI/NPU_V2/rtl/reg_interface.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/reg_interface.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_interface
+
+Top level modules:
+	reg_interface
+
+} {} {}} /home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv {1 {vlog -work work -sv -stats=none /home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} /home/shammo/Documents/VLSI/NPU_V2/rtl/npu_control_logic.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/npu_control_logic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} /home/shammo/Documents/VLSI/NPU_V2/rtl/mem_management_logic.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/mem_management_logic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}

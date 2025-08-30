@@ -1,0 +1,37 @@
+// Core config ----------------
+`define NPU_DATA_WIDTH 16
+`define NPU_REG_WIDTH 16
+`define NPU_LAYER_NUM_WIDTH 4
+`define NPU_INPUT_NUM_WIDTH 16
+`define NPU_NODE_NUM_WIDTH 10
+`define NPU_CORE_COUNT 1
+//
+`define NPU_SPI_START_HEADER 16'hffff
+// ----------------------------
+
+
+// Register and BRAM Addresses --------
+//
+`define NPU_REG_ADDR_WIDTH 8
+//
+`define NPU_CON_REG_ADDR 8'h04
+`define NPU_IN_NUM_REG_ADDR 8'h06
+`define NPU_HID_LAYER_CON_REG0_ADDR 8'h08
+`define NPU_HID_LAYER_CON_REG1_ADDR 8'h0a
+`define NPU_HID_LAYER_CON_REG2_ADDR 8'h0c
+`define NPU_HID_LAYER_CON_REG3_ADDR 8'h0e
+`define NPU_HID_LAYER_CON_REG4_ADDR 8'h10
+`define NPU_HID_LAYER_CON_REG5_ADDR 8'h12
+`define NPU_HID_LAYER_CON_REG6_ADDR 8'h14
+`define NPU_HID_LAYER_CON_REG7_ADDR 8'h16
+`define NPU_HID_LAYER_CON_REG8_ADDR 8'h18
+`define NPU_HID_LAYER_CON_REG9_ADDR 8'h1a
+`define NPU_HID_LAYER_CON_REG10_ADDR 8'h1c
+`define NPU_HID_LAYER_CON_REG11_ADDR 8'h1e
+`define NPU_HID_LAYER_CON_REG12_ADDR 8'h20
+`define NPU_HID_LAYER_CON_REG13_ADDR 8'h22
+`define NPU_HID_LAYER_CON_REG14_ADDR 8'h24
+`define NPU_HID_LAYER_CON_REG15_ADDR 8'h26
+`define NPU_MODEL_DATA_ADDR 8'h28
+//
+// ------------------------------------

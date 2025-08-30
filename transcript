@@ -1,0 +1,102 @@
+# do sim/run.do
+# 1
+# 0
+# npu_v2
+# Loading project npu_v2
+# vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/mem_management_logic.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/npu_control_logic.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# vlog -work work -sv -stats=none /home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/reg_interface.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Compiling module reg_interface
+# 
+# Top level modules:
+# 	reg_interface
+# vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/spi_slave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Compiling module spi_slave
+# 
+# Top level modules:
+# 	spi_slave
+# vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/reg_bank.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Compiling module reg_bank
+# 
+# Top level modules:
+# 	reg_bank
+# vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/npu_top.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Compiling module npu_top
+# 
+# Top level modules:
+# 	npu_top
+# vlog -work work -stats=none /home/shammo/Documents/VLSI/NPU_V2/rtl/standard_macros.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Compiling module counter_m
+# -- Compiling module dff
+# -- Compiling module mux_4x1
+# -- Compiling module posedge_dectector
+# -- Compiling module negedge_dectector
+# -- Compiling module counter
+# -- Compiling module fifo
+# -- Compiling module shift_register
+# -- Compiling module serial_shift_register
+# -- Compiling module customized_fifo
+# 
+# Top level modules:
+# 	counter_m
+# 	mux_4x1
+# 	posedge_dectector
+# 	negedge_dectector
+# 	fifo
+# 	shift_register
+# 	serial_shift_register
+# 	customized_fifo
+# 8 compiles, 0 failed with no errors.
+# vsim -c work.tb_top -do "run -all" "+TEST=1" 
+# Start time: 13:38:10 on Aug 30,2025
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.npu_top
+# Loading work.reg_interface
+# Loading work.spi_slave
+# Loading work.counter
+# Loading work.dff
+# Loading work.posedge_dectector
+# Loading work.serial_shift_register
+# Loading work.reg_bank
+# run -all
+# [1;34m
+# 
+# 
+#  ################
+#  # NPU SPI test #
+#  ################
+# 
+# 
+# -------------------- Register Write operation -------------------
+# 
+# SPI write operation --> Config header write     --> *DATA: 0xffff
+# SPI write operation --> Config register address --> *DATA: 0x06
+# SPI write operation --> Config data             --> *DATA: 0x00ff
+# -----------------------------------------------------------------
+# 
+# -------------------- Register Read operation --------------------
+# 
+# SPI write operation --> Config header write     --> *DATA: 0xffff
+# SPI write operation --> Config register address --> *DATA: 0x06
+# SPI write operation --> dummy write             --> *DATA: 0x0000
+# SPI miso listener   --> read data               --> *DATA: 0x00ff
+# -----------------------------------------------------------------
+# 
+# [0m** Note: $stop    : /home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv(60)
+#    Time: 899 ns  Iteration: 0  Instance: /tb_top
+# Break in NamedBeginStat main_thread at /home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv line 60
+# Stopped at /home/shammo/Documents/VLSI/NPU_V2/tb/tb_top.sv line 60
