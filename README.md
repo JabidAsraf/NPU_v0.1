@@ -1,3 +1,26 @@
+# NPU Simulation
+
+## Steps to Run the Simulation
+
+1. Make sure **Python** is installed.  
+2. Run the following command:  
+   ```bash
+   python sim/run.py -test 1 -mode 0
+## Options
+
+### `-test`
+- `0` → Full NPU Test  
+- `1` → NPU SPI Register Interface Test  
+
+### `-mode`
+- `0` → Command-Line Interface (CLI) Run  
+- `1` → Graphical User Interface (GUI) Run  
+
+### Notes
+- Compilation is **not required** before running. Each time `run.py` is executed, the full project is automatically compiled.  
+- For development, you can modify the code using any preferred text editor. Running `run.py` again will recompile and resimulate the project with the updated changes.
+
+
 # NPU Architecture
 
 ## NPU Parameters
