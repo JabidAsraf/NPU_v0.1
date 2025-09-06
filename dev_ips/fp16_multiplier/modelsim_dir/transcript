@@ -1,0 +1,55 @@
+# Loading project fp16_multiplier
+# reading modelsim.ini
+# Loading project fp16_multiplier
+# Compile of fp16_multiplier.v was successful.
+# Compile of standard_macros.v was successful.
+# Compile of tb_fm_seq.sv was successful.
+# Compile of tb_f32m_seq.sv was successful.
+# Compile of tb_fm_seq_fa_mnist.sv was successful.
+# Compile of tb_fm_seq_mnist.sv was successful.
+# Compile of fp32_multiplier.v was successful.
+# Compile of tb_fm_err_chk.sv was successful.
+# Compile of tb_fm_err_chk_ind.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.tb_fm_err_chk_ind
+# vsim work.tb_fm_err_chk_ind 
+# Start time: 21:54:24 on Mar 05,2025
+# Loading sv_std.std
+# Loading work.tb_fm_err_chk_ind
+# Loading work.fp32_multiplier
+# Loading work.dff
+add wave -position insertpoint  \
+sim:/tb_fm_err_chk_ind/clk \
+sim:/tb_fm_err_chk_ind/reset_b \
+sim:/tb_fm_err_chk_ind/a \
+sim:/tb_fm_err_chk_ind/b \
+sim:/tb_fm_err_chk_ind/start \
+sim:/tb_fm_err_chk_ind/clear \
+sim:/tb_fm_err_chk_ind/valid \
+sim:/tb_fm_err_chk_ind/out \
+sim:/tb_fm_err_chk_ind/i \
+sim:/tb_fm_err_chk_ind/j \
+sim:/tb_fm_err_chk_ind/max_err \
+sim:/tb_fm_err_chk_ind/min_err \
+sim:/tb_fm_err_chk_ind/f_handle \
+sim:/tb_fm_err_chk_ind/info_f_handle \
+sim:/tb_fm_err_chk_ind/count
+run -all
+# [1;34mRunnning multiplier error check test in FP32 mode
+# [                5000] :: Multiplication number: 1
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 01000010110001111111101011100001 :: input a in float         = 99.990000
+# input b in binary         = 01000001010100000000000000000000 :: input b in float         = 13.000000
+# expected output in binary = 01000100101000100111101111010111 :: expected output in float = 1299.870000
+# actual output in binary   = 01000100100101111111101100011110 :: actual output in float   = 1215.847412
+# 
+# error absolute            = 84.022588
+# error percentage          = 6.463922
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# [0m** Note: $stop    : /home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/tb/tb_fm_err_chk_ind.sv(68)
+#    Time: 24500 ps  Iteration: 0  Instance: /tb_fm_err_chk_ind
+# Break in Module tb_fm_err_chk_ind at /home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/tb/tb_fm_err_chk_ind.sv line 68
+# End time: 22:08:49 on Mar 05,2025, Elapsed time: 0:14:25
+# Errors: 0, Warnings: 2

@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/shammo/Documents/VLSI/fp16_divider
+vdff
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1718386478
+!i10b 1
+!s100 c78BH58>=JGa1PjN`3BKR1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il7MQVgUl?e0cmT>c7aeCM3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1718386470
+Z6 8fp16_divider.sv
+Z7 Ffp16_divider.sv
+!i122 108
+L0 40 21
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1718386478.000000
+!s107 fp16_divider.sv|
+Z10 !s90 fp16_divider.sv|
+!i113 1
+Z11 tCvgOpt 0
+vfp16_divider
+R1
+R2
+!i10b 1
+!s100 KRJf[z]eJI;zkU6UbQK3E2
+R3
+I9?]4D1Z@cWkcdK`e3=07C2
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 108
+L0 1 38
+R8
+r1
+!s85 0
+31
+R9
+Z12 !s107 fp16_divider.sv|
+R10
+!i113 1
+R11
+vfp16_divider_tb
+R1
+!s110 1718385457
+!i10b 1
+!s100 ^nk:[SAl?1mFb;ozNbI[[3
+R3
+I_OEA[bKZ7QZm3M^CeSCCO2
+R4
+S1
+R0
+w1718385408
+8tb.sv
+Ftb.sv
+!i122 91
+L0 1 109
+R8
+r1
+!s85 0
+31
+!s108 1718385457.000000
+!s107 tb.sv|
+!s90 tb.sv|
+!i113 1
+R11

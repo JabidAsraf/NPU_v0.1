@@ -1,0 +1,101 @@
+/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_divider.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_divider.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_divider
+
+Top level modules:
+	fp16_divider
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_alt.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_alt.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_multiplier_alt
+
+Top level modules:
+	fp16_multiplier_alt
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/significand_handler.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/significand_handler.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module significand_handler
+
+Top level modules:
+	significand_handler
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_exp.sv {1 {vlog -work work -sv -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_exp.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_exp
+
+Top level modules:
+	tb_exp
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/standard_macros.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/standard_macros.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_m
+-- Compiling module dff
+-- Compiling module mux_4x1
+-- Compiling module posedge_dectector
+-- Compiling module negedge_dectector
+-- Compiling module counter
+-- Compiling module fifo
+-- Compiling module shift_register
+-- Compiling module serial_shift_register
+-- Compiling module customized_fifo
+
+Top level modules:
+	counter_m
+	mux_4x1
+	posedge_dectector
+	negedge_dectector
+	fifo
+	shift_register
+	serial_shift_register
+	customized_fifo
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/exponent_handler.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/exponent_handler.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module exponent_handler
+
+Top level modules:
+	exponent_handler
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_multi.sv {1 {vlog -work work -sv -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_multi.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_multi_tb
+
+Top level modules:
+	fp16_multi_tb
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_multiplier
+
+Top level modules:
+	fp16_multiplier
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_adder.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_adder
+
+Top level modules:
+	fp16_adder
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_div.sv {1 {vlog -work work -sv -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_div.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_divider_tb
+
+Top level modules:
+	fp16_divider_tb
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_n.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_n.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_multiplier_n
+
+Top level modules:
+	fp16_multiplier_n
+
+} {} {}} /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_exp.v {1 {vlog -work work -stats=none /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_exp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_exp
+
+Top level modules:
+	fp16_exp
+
+} {} {}}

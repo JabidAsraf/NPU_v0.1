@@ -1,0 +1,202 @@
+# Current time Thu Jul 25 22:57:42 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = "linuxaloem"
+# Signature = fa4d3e95ccc4dcaa70644b276588aa2d
+# 0    0x08dd7804: '<unknown (@0x8dd7804)>'
+# 1    0x08dd1926: '<unknown (@0x8dd1926)>'
+# 2    0x08860115: '<unknown (@0x8860115)>'
+# 3    0x08a40bb2: '<unknown (@0x8a40bb2)>'
+# 4    0x08862fac: '<unknown (@0x8862fac)>'
+# 5    0x08865699: '<unknown (@0x8865699)>'
+# 6    0x08865791: '<unknown (@0x8865791)>'
+# 7    0x08579e8d: '<unknown (@0x8579e8d)>'
+# 8    0x0857b08d: '<unknown (@0x857b08d)>'
+# 9    0x0857b9b0: '<unknown (@0x857b9b0)>'
+# 10   0x08584e5f: '<unknown (@0x8584e5f)>'
+# 11   0x08592f02: '<unknown (@0x8592f02)>'
+# 12   0xf65f1544: '/home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/rtl/fp16_multiplier.v:41'
+# 13   0x0831d7d9: '<unknown (@0x831d7d9)>'
+# 14   0x08550863: '<unknown (@0x8550863)>'
+# 15   0x08551161: '<unknown (@0x8551161)>'
+# 16   0xf65ec757: '/home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/tb/tb_fp16_multi.sv:531'
+# 17   0x0831d7d9: '<unknown (@0x831d7d9)>'
+# 18   0x0853e4b9: '<unknown (@0x853e4b9)>'
+# 19   0x085e8c5b: '<unknown (@0x85e8c5b)>'
+# 20   0x085d28ed: '<unknown (@0x85d28ed)>'
+# 21   0x085d394d: '<unknown (@0x85d394d)>'
+# 22   0x08aa40c2: '<unknown (@0x8aa40c2)>'
+# 23   0x08a9a3b9: '<unknown (@0x8a9a3b9)>'
+# 24   0x092365cb: '<unknown (@0x92365cb)>'
+# 25   0x09235bba: '<unknown (@0x9235bba)>'
+# 26   0x0923b143: '<unknown (@0x923b143)>'
+# 27   0x0923b25a: '<unknown (@0x923b25a)>'
+# 28   0x0923c901: '<unknown (@0x923c901)>'
+# 29   0x0923cc76: '<unknown (@0x923cc76)>'
+# 30   0x08d20173: '<unknown (@0x8d20173)>'
+# 31   0x092e4977: '<unknown (@0x92e4977)>'
+# 32   0x0933ec3c: '<unknown (@0x933ec3c)>'
+# 33   0x09341a98: '<unknown (@0x9341a98)>'
+# 34   0x092fde68: '<unknown (@0x92fde68)>'
+# 35   0x092fe175: '<unknown (@0x92fe175)>'
+# 36   0x090ec6c0: '<unknown (@0x90ec6c0)>'
+# 37   0x0879fb79: '<unknown (@0x879fb79)>'
+# 38   0x0863aebb: '<unknown (@0x863aebb)>'
+# End of Stack Trace
+
+
+# Current time Fri Jul 26 00:02:11 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = "linuxaloem"
+# Signature = fa4d3e95ccc4dcaa70644b276588aa2d
+# 0    0x08dd7804: '<unknown (@0x8dd7804)>'
+# 1    0x08dd1926: '<unknown (@0x8dd1926)>'
+# 2    0x08860115: '<unknown (@0x8860115)>'
+# 3    0x08a40bb2: '<unknown (@0x8a40bb2)>'
+# 4    0x08862fac: '<unknown (@0x8862fac)>'
+# 5    0x08865699: '<unknown (@0x8865699)>'
+# 6    0x08865791: '<unknown (@0x8865791)>'
+# 7    0x08579e8d: '<unknown (@0x8579e8d)>'
+# 8    0x0857b08d: '<unknown (@0x857b08d)>'
+# 9    0x0857b9b0: '<unknown (@0x857b9b0)>'
+# 10   0x08584e5f: '<unknown (@0x8584e5f)>'
+# 11   0x08592f02: '<unknown (@0x8592f02)>'
+# 12   0xf65f1554: '/home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/rtl/fp16_multiplier.v:41'
+# 13   0x0831d7d9: '<unknown (@0x831d7d9)>'
+# 14   0x08550863: '<unknown (@0x8550863)>'
+# 15   0x08551161: '<unknown (@0x8551161)>'
+# 16   0xf65ec757: '/home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/tb/tb_fp16_multi.sv:531'
+# 17   0x0831d7d9: '<unknown (@0x831d7d9)>'
+# 18   0x0853e4b9: '<unknown (@0x853e4b9)>'
+# 19   0x085e8c5b: '<unknown (@0x85e8c5b)>'
+# 20   0x085d28ed: '<unknown (@0x85d28ed)>'
+# 21   0x085d394d: '<unknown (@0x85d394d)>'
+# 22   0x08aa40c2: '<unknown (@0x8aa40c2)>'
+# 23   0x08a9a3b9: '<unknown (@0x8a9a3b9)>'
+# 24   0x092365cb: '<unknown (@0x92365cb)>'
+# 25   0x09235bba: '<unknown (@0x9235bba)>'
+# 26   0x0923b143: '<unknown (@0x923b143)>'
+# 27   0x0923b25a: '<unknown (@0x923b25a)>'
+# 28   0x0923c901: '<unknown (@0x923c901)>'
+# 29   0x0923cc76: '<unknown (@0x923cc76)>'
+# 30   0x08d20173: '<unknown (@0x8d20173)>'
+# 31   0x092e4977: '<unknown (@0x92e4977)>'
+# 32   0x0933ec3c: '<unknown (@0x933ec3c)>'
+# 33   0x09341a98: '<unknown (@0x9341a98)>'
+# 34   0x092fde68: '<unknown (@0x92fde68)>'
+# 35   0x092fe175: '<unknown (@0x92fe175)>'
+# 36   0x090ec6c0: '<unknown (@0x90ec6c0)>'
+# 37   0x0879fb79: '<unknown (@0x879fb79)>'
+# 38   0x0863aebb: '<unknown (@0x863aebb)>'
+# End of Stack Trace
+
+
+# Current time Fri Jul 26 18:43:41 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = "linuxaloem"
+# Signature = fa4d3e95ccc4dcaa70644b276588aa2d
+# 0    0x08dd7804: '<unknown (@0x8dd7804)>'
+# 1    0x08dd1926: '<unknown (@0x8dd1926)>'
+# 2    0x08860115: '<unknown (@0x8860115)>'
+# 3    0x08a40bb2: '<unknown (@0x8a40bb2)>'
+# 4    0x08862f86: '<unknown (@0x8862f86)>'
+# 5    0x08865699: '<unknown (@0x8865699)>'
+# 6    0x08865791: '<unknown (@0x8865791)>'
+# 7    0x08579e8d: '<unknown (@0x8579e8d)>'
+# 8    0x0857b08d: '<unknown (@0x857b08d)>'
+# 9    0x0857b9b0: '<unknown (@0x857b9b0)>'
+# 10   0x08584e5f: '<unknown (@0x8584e5f)>'
+# 11   0x08592f02: '<unknown (@0x8592f02)>'
+# 12   0xf65f12c4: '/home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/rtl/fp16_multiplier.v:41'
+# 13   0x0831d7d9: '<unknown (@0x831d7d9)>'
+# 14   0x08550863: '<unknown (@0x8550863)>'
+# 15   0x08551161: '<unknown (@0x8551161)>'
+# 16   0xf65ec4c3: '/home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/tb/tb_fp16_multi.sv:532'
+# 17   0x0831d7d9: '<unknown (@0x831d7d9)>'
+# 18   0x0853e4b9: '<unknown (@0x853e4b9)>'
+# 19   0x085e8c5b: '<unknown (@0x85e8c5b)>'
+# 20   0x085d28ed: '<unknown (@0x85d28ed)>'
+# 21   0x085d394d: '<unknown (@0x85d394d)>'
+# 22   0x08aa40c2: '<unknown (@0x8aa40c2)>'
+# 23   0x08a9a3b9: '<unknown (@0x8a9a3b9)>'
+# 24   0x092365cb: '<unknown (@0x92365cb)>'
+# 25   0x09235bba: '<unknown (@0x9235bba)>'
+# 26   0x0923b143: '<unknown (@0x923b143)>'
+# 27   0x0923b25a: '<unknown (@0x923b25a)>'
+# 28   0x0923c901: '<unknown (@0x923c901)>'
+# 29   0x0923cc76: '<unknown (@0x923cc76)>'
+# 30   0x08d20173: '<unknown (@0x8d20173)>'
+# 31   0x092e4977: '<unknown (@0x92e4977)>'
+# 32   0x0933ec3c: '<unknown (@0x933ec3c)>'
+# 33   0x09341a98: '<unknown (@0x9341a98)>'
+# 34   0x092fde68: '<unknown (@0x92fde68)>'
+# 35   0x092fe175: '<unknown (@0x92fe175)>'
+# 36   0x090ec6c0: '<unknown (@0x90ec6c0)>'
+# 37   0x0879fb79: '<unknown (@0x879fb79)>'
+# 38   0x0863aebb: '<unknown (@0x863aebb)>'
+# End of Stack Trace
+
+
+# Current time Fri Jul 26 19:55:01 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = "linuxaloem"
+# Signature = fa4d3e95ccc4dcaa70644b276588aa2d
+# 0    0x08dd7804: '<unknown (@0x8dd7804)>'
+# 1    0x08dd1926: '<unknown (@0x8dd1926)>'
+# 2    0x08860115: '<unknown (@0x8860115)>'
+# 3    0x08a40bb2: '<unknown (@0x8a40bb2)>'
+# 4    0x08862fd5: '<unknown (@0x8862fd5)>'
+# 5    0x08865699: '<unknown (@0x8865699)>'
+# 6    0x08865791: '<unknown (@0x8865791)>'
+# 7    0x08579e8d: '<unknown (@0x8579e8d)>'
+# 8    0x0857b08d: '<unknown (@0x857b08d)>'
+# 9    0x0857b9b0: '<unknown (@0x857b9b0)>'
+# 10   0x08584e5f: '<unknown (@0x8584e5f)>'
+# 11   0x08592f02: '<unknown (@0x8592f02)>'
+# 12   0xf6608274: '/home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/rtl/fp16_multiplier.v:41'
+# 13   0x0831d7d9: '<unknown (@0x831d7d9)>'
+# 14   0x08550863: '<unknown (@0x8550863)>'
+# 15   0x08551161: '<unknown (@0x8551161)>'
+# 16   0xf660347b: '/home/shammo/Documents/VLSI/fp16_multiplier/modelsim_dir/tb/tb_fp16_multi.sv:549'
+# 17   0x0831d7d9: '<unknown (@0x831d7d9)>'
+# 18   0x0853e4b9: '<unknown (@0x853e4b9)>'
+# 19   0x085e8c5b: '<unknown (@0x85e8c5b)>'
+# 20   0x085d28ed: '<unknown (@0x85d28ed)>'
+# 21   0x085d394d: '<unknown (@0x85d394d)>'
+# 22   0x087ccea3: '<unknown (@0x87ccea3)>'
+# 23   0x08a0d40d: '<unknown (@0x8a0d40d)>'
+# 24   0x087cd1b6: '<unknown (@0x87cd1b6)>'
+# 25   0x08a9a3b9: '<unknown (@0x8a9a3b9)>'
+# 26   0x092365cb: '<unknown (@0x92365cb)>'
+# 27   0x09235bba: '<unknown (@0x9235bba)>'
+# 28   0x0923b143: '<unknown (@0x923b143)>'
+# 29   0x0923b25a: '<unknown (@0x923b25a)>'
+# 30   0x0923c901: '<unknown (@0x923c901)>'
+# 31   0x0923cc76: '<unknown (@0x923cc76)>'
+# 32   0x08d20173: '<unknown (@0x8d20173)>'
+# 33   0x092e4977: '<unknown (@0x92e4977)>'
+# 34   0x0933ec3c: '<unknown (@0x933ec3c)>'
+# 35   0x09341a98: '<unknown (@0x9341a98)>'
+# 36   0x092fde68: '<unknown (@0x92fde68)>'
+# 37   0x092fe175: '<unknown (@0x92fe175)>'
+# 38   0x090ec6c0: '<unknown (@0x90ec6c0)>'
+# 39   0x0879fb79: '<unknown (@0x879fb79)>'
+# 40   0x0863aebb: '<unknown (@0x863aebb)>'
+# End of Stack Trace
+
+

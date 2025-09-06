@@ -1,0 +1,547 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/shammo/Documents/VLSI/Softmax/modelsim_dir
+vcounter
+Z1 !s110 1720458824
+!i10b 1
+!s100 3FDIgRA2]d6=Fe<80a6j40
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOQdd90ha950j6O4Y11FOm0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1717237240
+Z5 8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/standard_macros.v
+Z6 F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/standard_macros.v
+!i122 4928
+L0 187 33
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1720458824.000000
+Z9 !s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/standard_macros.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/standard_macros.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcounter_m
+R1
+!i10b 1
+!s100 oK6WK0g6_H87:YTII^DL]2
+R2
+I;m]W;HBhzEVGM9S4@8^[W3
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 1 41
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcustomized_fifo
+R1
+!i10b 1
+!s100 ng;YU3[dCmBJ`BeZ8Hab03
+R2
+ILdN5==Wb`Oz1]WOM[A65N0
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 368 87
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vdff
+R1
+!i10b 1
+!s100 `TQG7Kkcl``U1<UhfH^cU2
+R2
+I^@9]XFfg_EaDg8FQo9ofX2
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 56 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vexponent_handler
+Z13 !s110 1720458825
+!i10b 1
+!s100 7FMj`Elb?8KHGhjV_[bXS3
+R2
+IMb0M5nha;S__:An@;@2]h2
+R3
+R0
+w1711278080
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/exponent_handler.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/exponent_handler.v
+!i122 4934
+L0 1 16
+R7
+r1
+!s85 0
+31
+Z14 !s108 1720458825.000000
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/exponent_handler.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/exponent_handler.v|
+!i113 1
+R11
+R12
+vfifo
+R1
+!i10b 1
+!s100 EPRbe[zDEPCfNZNinOb2j1
+R2
+I2UY6aTT_8LSO7kXhMLkAF1
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 221 84
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vfp16_adder
+R1
+!i10b 1
+!s100 I3Y>o5bcDXh]na_<bhzmH3
+R2
+IFa0IBV4BNERO`=:WX8f8G3
+R3
+R0
+w1717248061
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_adder.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_adder.v
+!i122 4924
+L0 23 315
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_adder.v|
+!i113 1
+R11
+R12
+vfp16_divider
+R1
+!i10b 1
+!s100 4SMN16UK@ZlLhI<e5UeOi1
+R2
+I1fARKjeGUnVHRdoWag]?k1
+R3
+R0
+w1718391207
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_divider.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_divider.v
+!i122 4925
+L0 1 38
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_divider.v|
+!i113 1
+R11
+R12
+vfp16_divider_tb
+Z15 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R13
+!i10b 1
+!s100 ^nk:[SAl?1mFb;ozNbI[[3
+R2
+IgPf<L7oV971KRE1DUz9DN2
+R3
+S1
+R0
+w1718893445
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_div.sv
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_div.sv
+!i122 4931
+L0 1 109
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_div.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_div.sv|
+!i113 1
+Z16 o-work work -sv
+R12
+vfp16_exp
+R1
+!i10b 1
+!s100 IFZ8NRzlOgb:f3U<hnfSJ0
+R2
+IRU:L5]4LDcd4E8o66KIPR2
+R3
+R0
+w1720447964
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_exp.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_exp.v
+!i122 4926
+L0 1 270
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_exp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_exp.v|
+!i113 1
+R11
+R12
+vfp16_multi_tb
+R15
+R13
+!i10b 1
+!s100 o_<`6`7@`7k=D3SeUOn6S0
+R2
+IPEI[h=LFhK5Y:B_6==f842
+R3
+S1
+R0
+w1719596033
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_multi.sv
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_multi.sv
+!i122 4936
+L0 1 119
+R7
+r1
+!s85 0
+31
+R14
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_multi.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_fp16_multi.sv|
+!i113 1
+R16
+R12
+vfp16_multiplier
+R13
+!i10b 1
+!s100 N8bj<nd22an4nYEi3nj=B1
+R2
+Im?>?MAOaUk0`E0jKdWSmh1
+R3
+R0
+w1719731790
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier.v
+!i122 4932
+L0 1 50
+R7
+r1
+!s85 0
+31
+R14
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier.v|
+!i113 1
+R11
+R12
+vfp16_multiplier_alt
+R13
+!i10b 1
+!s100 ;jWeQ:Tf^o>Z3=Yj?KQ?D3
+R2
+I9cVbaJIS?CVEk9k]oP2nd3
+R3
+R0
+w1711280750
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_alt.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_alt.v
+!i122 4933
+L0 1 124
+R7
+r1
+!s85 0
+31
+R14
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_alt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_alt.v|
+!i113 1
+R11
+R12
+vfp16_multiplier_n
+R13
+!i10b 1
+!s100 ZkcLNk:hWegmEg<amA48o3
+R2
+IEBa?k818TSYB7aRzLHzJM3
+R3
+R0
+w1719158093
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_n.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_n.v
+!i122 4937
+L0 1 86
+R7
+r1
+!s85 0
+31
+R14
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_multiplier_n.v|
+!i113 1
+R11
+R12
+vfp16_softmax
+R1
+!i10b 1
+!s100 >FmYAgV2jF@ig6;;Z47z_3
+R2
+IQ[_mTRb9<_F_k8Rf[eM8=1
+R3
+R0
+w1720026603
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_softmax.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_softmax.v
+!i122 4927
+L0 1 288
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_softmax.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/fp16_softmax.v|
+!i113 1
+R11
+R12
+vmux_4x1
+R1
+!i10b 1
+!s100 ]8B22@o^aTlUh0[gI9gBg1
+R2
+I?Yn;CDgV;BRA1_QLeBH>h3
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 90 23
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vnegedge_dectector
+R1
+!i10b 1
+!s100 ^4XMXz<f1[kAaK13X^6YF3
+R2
+IGUREjK@`1VFnc@[@J0b2i2
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 162 24
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vposedge_dectector
+R1
+!i10b 1
+!s100 8eiJ6IYzeUcB6dg_aVQOG0
+R2
+Ii_c0oe]jOLO6^lD:PEBbN1
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 125 25
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vserial_shift_register
+R1
+!i10b 1
+!s100 HXGC^`MfH5aeY>`JHbgB<3
+R2
+Ib>Iz<Igo7GEd9aejXXhf_2
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 335 31
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vshift_register
+R1
+!i10b 1
+!s100 JRI6^O[Z:YAmRo`miTfZo3
+R2
+I4R6Fzkk=6XhGBMF<VF2l50
+R3
+R0
+R4
+R5
+R6
+!i122 4928
+L0 306 28
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vsignificand_handler
+R13
+!i10b 1
+!s100 Skc_9I[fHiJj>JU3?=^TC2
+R2
+I5AALAQR_01:J^bEzkDWb33
+R3
+R0
+w1718908127
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/significand_handler.v
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/significand_handler.v
+!i122 4935
+L0 1 192
+R7
+r1
+!s85 0
+31
+R14
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/significand_handler.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/significand_handler.v|
+!i113 1
+R11
+R12
+vtb
+R15
+!s110 1720461008
+!i10b 1
+!s100 P;G8ejkbj[@?Mjc3?M9``3
+R2
+I0DH?jOL`djU?Bm?=l?;H_3
+R3
+S1
+R0
+w1720461004
+8tb.sv
+Ftb.sv
+!i122 4959
+L0 3 250
+R7
+r1
+!s85 0
+31
+!s108 1720461008.000000
+!s107 tb.sv|
+!s90 tb.sv|
+!i113 1
+R12
+vtb_exp
+R15
+R1
+!i10b 1
+!s100 R3jG7IHaZ4[XHWen;^Q=A3
+R2
+IO^VmD]HkIPo^io5oXmGRT1
+R3
+S1
+R0
+w1719948940
+8/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_exp.sv
+F/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_exp.sv
+!i122 4930
+L0 2 105
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_exp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/shammo/Documents/VLSI/Softmax/modelsim_dir/tb_exp.sv|
+!i113 1
+R16
+R12

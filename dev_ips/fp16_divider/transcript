@@ -1,0 +1,398 @@
+# vsim -c fp16_divider_tb -do "run -all" 
+# Start time: 23:34:42 on Jun 14,2024
+# Loading sv_std.std
+# Loading work.fp16_divider_tb
+# Loading work.fp16_divider
+# Loading work.dff
+# run -all
+# [1;34m-------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0100001000000000 :: input b in float         = 3.000000
+# expected output in binary = 0011010101010101 :: expected output in float = 0.333333
+# actual output in binary   = 0011011000000000 :: actual output in float   = 0.375000
+# 
+# error absolute            = 0.041667
+# error percentage          = 12.500000
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101000111100000 :: input b in float         = 47.000000
+# expected output in binary = 0010010101110010 :: expected output in float = 0.021277
+# actual output in binary   = 0010011000100000 :: actual output in float   = 0.023926
+# 
+# error absolute            = 0.002649
+# error percentage          = 12.451172
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101001000100000 :: input b in float         = 49.000000
+# expected output in binary = 0010010100111001 :: expected output in float = 0.020408
+# actual output in binary   = 0010010111100000 :: actual output in float   = 0.022949
+# 
+# error absolute            = 0.002541
+# error percentage          = 12.451172
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101010111110000 :: input b in float         = 95.000000
+# expected output in binary = 0010000101100011 :: expected output in float = 0.010526
+# actual output in binary   = 0010001000010000 :: actual output in float   = 0.011841
+# 
+# error absolute            = 0.001315
+# error percentage          = 12.487793
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101011000010000 :: input b in float         = 97.000000
+# expected output in binary = 0010000101000111 :: expected output in float = 0.010309
+# actual output in binary   = 0010000111110000 :: actual output in float   = 0.011597
+# 
+# error absolute            = 0.001287
+# error percentage          = 12.487793
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101100111011000 :: input b in float         = 187.000000
+# expected output in binary = 0001110101111001 :: expected output in float = 0.005348
+# actual output in binary   = 0001111000101000 :: actual output in float   = 0.006012
+# 
+# error absolute            = 0.000664
+# error percentage          = 12.423706
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101100111101000 :: input b in float         = 189.000000
+# expected output in binary = 0001110101101011 :: expected output in float = 0.005291
+# actual output in binary   = 0001111000011000 :: actual output in float   = 0.005951
+# 
+# error absolute            = 0.000660
+# error percentage          = 12.472534
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101100111111000 :: input b in float         = 191.000000
+# expected output in binary = 0001110101011100 :: expected output in float = 0.005236
+# actual output in binary   = 0001111000001000 :: actual output in float   = 0.005890
+# 
+# error absolute            = 0.000654
+# error percentage          = 12.496948
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101101000001000 :: input b in float         = 193.000000
+# expected output in binary = 0001110101001110 :: expected output in float = 0.005181
+# actual output in binary   = 0001110111111000 :: actual output in float   = 0.005829
+# 
+# error absolute            = 0.000648
+# error percentage          = 12.496948
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101101000011000 :: input b in float         = 195.000000
+# expected output in binary = 0001110101000000 :: expected output in float = 0.005128
+# actual output in binary   = 0001110111101000 :: actual output in float   = 0.005768
+# 
+# error absolute            = 0.000640
+# error percentage          = 12.472534
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101101000101000 :: input b in float         = 197.000000
+# expected output in binary = 0001110100110010 :: expected output in float = 0.005076
+# actual output in binary   = 0001110111011000 :: actual output in float   = 0.005707
+# 
+# error absolute            = 0.000631
+# error percentage          = 12.423706
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101110111010100 :: input b in float         = 373.000000
+# expected output in binary = 0001100101111101 :: expected output in float = 0.002681
+# actual output in binary   = 0001101000101100 :: actual output in float   = 0.003014
+# 
+# error absolute            = 0.000333
+# error percentage          = 12.407684
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101110111011100 :: input b in float         = 375.000000
+# expected output in binary = 0001100101110110 :: expected output in float = 0.002667
+# actual output in binary   = 0001101000100100 :: actual output in float   = 0.002998
+# 
+# error absolute            = 0.000332
+# error percentage          = 12.438202
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101110111100100 :: input b in float         = 377.000000
+# expected output in binary = 0001100101101110 :: expected output in float = 0.002653
+# actual output in binary   = 0001101000011100 :: actual output in float   = 0.002983
+# 
+# error absolute            = 0.000331
+# error percentage          = 12.462616
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101110111101100 :: input b in float         = 379.000000
+# expected output in binary = 0001100101100111 :: expected output in float = 0.002639
+# actual output in binary   = 0001101000010100 :: actual output in float   = 0.002968
+# 
+# error absolute            = 0.000329
+# error percentage          = 12.480927
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101110111110100 :: input b in float         = 381.000000
+# expected output in binary = 0001100101100000 :: expected output in float = 0.002625
+# actual output in binary   = 0001101000001100 :: actual output in float   = 0.002953
+# 
+# error absolute            = 0.000328
+# error percentage          = 12.493134
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101110111111100 :: input b in float         = 383.000000
+# expected output in binary = 0001100101011000 :: expected output in float = 0.002611
+# actual output in binary   = 0001101000000100 :: actual output in float   = 0.002937
+# 
+# error absolute            = 0.000326
+# error percentage          = 12.499237
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101111000000100 :: input b in float         = 385.000000
+# expected output in binary = 0001100101010001 :: expected output in float = 0.002597
+# actual output in binary   = 0001100111111100 :: actual output in float   = 0.002922
+# 
+# error absolute            = 0.000325
+# error percentage          = 12.499237
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101111000001100 :: input b in float         = 387.000000
+# expected output in binary = 0001100101001010 :: expected output in float = 0.002584
+# actual output in binary   = 0001100111110100 :: actual output in float   = 0.002907
+# 
+# error absolute            = 0.000323
+# error percentage          = 12.493134
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101111000010100 :: input b in float         = 389.000000
+# expected output in binary = 0001100101000011 :: expected output in float = 0.002571
+# actual output in binary   = 0001100111101100 :: actual output in float   = 0.002892
+# 
+# error absolute            = 0.000321
+# error percentage          = 12.480927
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101111000011100 :: input b in float         = 391.000000
+# expected output in binary = 0001100100111100 :: expected output in float = 0.002558
+# actual output in binary   = 0001100111100100 :: actual output in float   = 0.002876
+# 
+# error absolute            = 0.000319
+# error percentage          = 12.462616
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101111000100100 :: input b in float         = 393.000000
+# expected output in binary = 0001100100110110 :: expected output in float = 0.002545
+# actual output in binary   = 0001100111011100 :: actual output in float   = 0.002861
+# 
+# error absolute            = 0.000316
+# error percentage          = 12.438202
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0011110000000000 :: input a in float         = 1.000000
+# input b in binary         = 0101111000101100 :: input b in float         = 395.000000
+# expected output in binary = 0001100100101111 :: expected output in float = 0.002532
+# actual output in binary   = 0001100111010100 :: actual output in float   = 0.002846
+# 
+# error absolute            = 0.000314
+# error percentage          = 12.407684
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0100001000000000 :: input b in float         = 3.000000
+# expected output in binary = 0101100101010010 :: expected output in float = 170.333333
+# actual output in binary   = 0101100111111100 :: actual output in float   = 191.500000
+# 
+# error absolute            = 21.166667
+# error percentage          = 12.426614
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101010111110000 :: input b in float         = 95.000000
+# expected output in binary = 0100010101100001 :: expected output in float = 5.378947
+# actual output in binary   = 0100011000001100 :: actual output in float   = 6.046875
+# 
+# error absolute            = 0.667928
+# error percentage          = 12.417441
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101011000010000 :: input b in float         = 97.000000
+# expected output in binary = 0100010101000100 :: expected output in float = 5.268041
+# actual output in binary   = 0100010111101100 :: actual output in float   = 5.921875
+# 
+# error absolute            = 0.653834
+# error percentage          = 12.411326
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101100111101000 :: input b in float         = 189.000000
+# expected output in binary = 0100000101101000 :: expected output in float = 2.703704
+# actual output in binary   = 0100001000010100 :: actual output in float   = 3.039062
+# 
+# error absolute            = 0.335359
+# error percentage          = 12.403682
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101100111111000 :: input b in float         = 191.000000
+# expected output in binary = 0100000101011001 :: expected output in float = 2.675393
+# actual output in binary   = 0100001000000100 :: actual output in float   = 3.007812
+# 
+# error absolute            = 0.332420
+# error percentage          = 12.425086
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101101000001000 :: input b in float         = 193.000000
+# expected output in binary = 0100000101001011 :: expected output in float = 2.647668
+# actual output in binary   = 0100000111110100 :: actual output in float   = 2.976562
+# 
+# error absolute            = 0.328894
+# error percentage          = 12.422028
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101110111101100 :: input b in float         = 379.000000
+# expected output in binary = 0011110101100100 :: expected output in float = 1.348285
+# actual output in binary   = 0011111000010000 :: actual output in float   = 1.515625
+# 
+# error absolute            = 0.167340
+# error percentage          = 12.411326
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101110111110100 :: input b in float         = 381.000000
+# expected output in binary = 0011110101011101 :: expected output in float = 1.341207
+# actual output in binary   = 0011111000001000 :: actual output in float   = 1.507812
+# 
+# error absolute            = 0.166605
+# error percentage          = 12.422028
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101110111111100 :: input b in float         = 383.000000
+# expected output in binary = 0011110101010110 :: expected output in float = 1.334204
+# actual output in binary   = 0011111000000000 :: actual output in float   = 1.500000
+# 
+# error absolute            = 0.165796
+# error percentage          = 12.426614
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101111000000100 :: input b in float         = 385.000000
+# expected output in binary = 0011110101001111 :: expected output in float = 1.327273
+# actual output in binary   = 0011110111111000 :: actual output in float   = 1.492188
+# 
+# error absolute            = 0.164915
+# error percentage          = 12.425086
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101111000001100 :: input b in float         = 387.000000
+# expected output in binary = 0011110101001000 :: expected output in float = 1.320413
+# actual output in binary   = 0011110111110000 :: actual output in float   = 1.484375
+# 
+# error absolute            = 0.163962
+# error percentage          = 12.417441
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# -------------------------------------------------------------------------------------------------------------
+# input a in binary         = 0101111111111100 :: input a in float         = 511.000000
+# input b in binary         = 0101111000010100 :: input b in float         = 389.000000
+# expected output in binary = 0011110101000001 :: expected output in float = 1.313625
+# actual output in binary   = 0011110111101000 :: actual output in float   = 1.476562
+# 
+# error absolute            = 0.162938
+# error percentage          = 12.403682
+# -------------------------------------------------------------------------------------------------------------
+# 
+# 
+# [0m** Note: $stop    : tb.sv(43)
+#    Time: 1966105 ps  Iteration: 0  Instance: /fp16_divider_tb
+# Break in Module fp16_divider_tb at tb.sv line 43
+# Stopped at tb.sv line 43
+# End time: 00:30:30 on Jun 15,2024, Elapsed time: 0:55:48
+# Errors: 0, Warnings: 0
