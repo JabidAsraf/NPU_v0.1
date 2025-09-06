@@ -1,0 +1,82 @@
+# Loading project tdp_mem
+# reading /home/shammo/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project NPU
+# Compile of calculation.sv was successful.
+# Compile of calculator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of counter_comparetor.sv was successful.
+# Compile of dummy_tdp.v was successful.
+# Compile of exponent_handler.sv was successful.
+# Compile of fp16_adder.sv was successful.
+# Compile of fp16_multiplier.sv failed with 5 errors.
+# Compile of fp16_multiplier_org.sv was successful.
+# Compile of fsm.sv was successful.
+# Compile of inputs.sv was successful.
+# Compile of neurons.sv was successful.
+# Compile of npu_params.sv failed with 1 errors.
+# Compile of npu_top.sv was successful.
+# Compile of sigmoid.sv was successful.
+# Compile of significand_handler.sv was successful.
+# Compile of spi_slave.v was successful.
+# Compile of standard_macros.sv was successful.
+# Compile of weights.sv was successful.
+# 19 compiles, 2 failed with 6 errors.
+# Compile of calculation.sv was successful.
+# Compile of calculator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of counter_comparetor.sv was successful.
+# Compile of dummy_tdp.v was successful.
+# Compile of exponent_handler.sv was successful.
+# Compile of fp16_adder.sv was successful.
+# Compile of fp16_multiplier.sv failed with 5 errors.
+# Compile of fp16_multiplier_org.sv was successful.
+# Compile of fsm.sv was successful.
+# Compile of inputs.sv was successful.
+# Compile of neurons.sv was successful.
+# Compile of npu_params.sv failed with 1 errors.
+# Compile of npu_top.sv was successful.
+# Compile of sigmoid.sv was successful.
+# Compile of significand_handler.sv was successful.
+# Compile of spi_slave.v was successful.
+# Compile of standard_macros.sv was successful.
+# Compile of weights.sv was successful.
+# 19 compiles, 2 failed with 6 errors.
+# Compile of calculation.sv was successful.
+# Compile of calculator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of counter_comparetor.sv was successful.
+# Compile of dummy_tdp.v was successful.
+# Compile of exponent_handler.sv was successful.
+# Compile of fp16_adder.sv was successful.
+# Compile of fp16_multiplier.sv was successful.
+# Compile of fp16_multiplier_org.sv was successful.
+# Compile of fsm.sv was successful.
+# Compile of inputs.sv was successful.
+# Compile of neurons.sv was successful.
+# Compile of npu_params.sv failed with 1 errors.
+# Compile of npu_top.sv was successful.
+# Compile of sigmoid.sv was successful.
+# Compile of significand_handler.sv was successful.
+# Compile of spi_slave.v was successful.
+# Compile of standard_macros.sv was successful.
+# Compile of weights.sv was successful.
+# 19 compiles, 1 failed with 1 error.
+# Compile of calculation.sv was successful.
+# Compile of calculator.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of counter_comparetor.sv was successful.
+# Compile of dummy_tdp.v was successful.
+# Compile of exponent_handler.sv was successful.
+# Compile of fp16_adder.sv was successful.
+# Compile of fp16_multiplier.sv was successful.
+# Compile of fp16_multiplier_org.sv was successful.
+# Compile of fsm.sv was successful.
+# Compile of inputs.sv was successful.
+# Compile of neurons.sv was successful.
+# Compile of npu_top.sv was successful.
+# Compile of sigmoid.sv was successful.
+# Compile of significand_handler.sv was successful.
+# Compile of spi_slave.v was successful.
+# Compile of standard_macros.sv was successful.
+# Compile of weights.sv was successful.
+# 18 compiles, 0 failed with no errors.
